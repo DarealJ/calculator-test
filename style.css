@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.maincontainer{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(#DFC4ED, #E0C2F1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cal_cont{
+    display: flex;
+    height: 80%;
+    width: 20.2rem;
+    background-color: #011D36;    display: grid;
+    border-radius: 2rem;
+    position: relative;
+}
+
+h1{
+   float: right;
+   padding-right: 2rem;
+   padding-top: 6rem;
+   font-size:4rem;
+}
+
+.firstrow, .secondrow, .thirdrow{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -0.9rem;
+}
+
+.button_cont{
+    margin-top: 7rem;
+    display: grid;
+    width: inherit;
+    height: 80%;
+    background-color: #022A4A;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding: 1rem 0;
+}
+    
+
+
+
+p{
+    display: grid;
+    place-content: center;
+    height: 5rem;
+    width: 5rem;
+    border: 1px solid #011D36 ;
+    font-size: 2rem;
+}
+
+.fourthrow{
+    margin-left: -6rem;
+}
+
+#box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: -0.2rem;
+}
+
+.zero_equal{
+    display: flex;
+    padding-left: 1rem;
+}
+#zero{
+    width: 10rem;
+}
+
+.green{
+    color: #218739;
+}
+
+.purple{
+    color: #9D82ED;
+}
